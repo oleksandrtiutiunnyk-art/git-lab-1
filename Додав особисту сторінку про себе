@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Про мене — Олександр Тютюнник</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      color: #183047;
+      background: linear-gradient(135deg, #dceeff, #f4f8ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 28px;
+    }
+    .card {
+      width: min(760px, 100%);
+      background: white;
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: 0 16px 45px rgba(28, 67, 105, .15);
+    }
+    header {
+      padding: 34px 24px 26px;
+      text-align: center;
+      color: white;
+      background: linear-gradient(120deg, #1769aa, #3c91d3);
+    }
+    header h1 { margin: 0 0 8px; font-size: clamp(27px, 5vw, 38px); }
+    header p { margin: 0; opacity: .92; }
+    main { padding: 30px clamp(22px, 5vw, 48px) 36px; text-align: center; }
+    .photo {
+      width: 180px;
+      height: 180px;
+      margin: -4px auto 20px;
+      border-radius: 50%;
+      border: 5px solid white;
+      box-shadow: 0 5px 20px rgba(0,0,0,.15);
+      object-fit: cover;
+      background: #e5f1fb;
+      display: block;
+    }
+    h2 { margin: 8px 0; color: #1769aa; }
+    .subtitle { margin: 0 0 24px; color: #63788b; }
+    .details {
+      text-align: left;
+      background: #f4f8fc;
+      border-radius: 14px;
+      padding: 20px 22px;
+      line-height: 1.75;
+    }
+    .details h3 { margin: 0 0 10px; color: #1769aa; }
+    .details p { margin: 6px 0; }
+    footer { padding: 16px; text-align: center; color: #718397; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <header>
+      <h1>Моя особиста сторінка</h1>
+      <p>Трохи інформації про мене</p>
+    </header>
+    <main>
+      <img class="photo" src="photo.jpg" alt="Фото Олександра">
+      <h2>Тютюнник Олександр</h2>
+      <p class="subtitle">Студент групи КТ-26-1/11</p>
+
+      <section class="details">
+        <h3>Коротко про мене</h3>
+        <p><strong>Ім’я:</strong> Олександр</p>
+        <p><strong>Прізвище:</strong> Тютюнник</p>
+        <p><strong>Навчальна група:</strong> КТ-26-1/11</p>
+        <p><strong>Напрям навчання:</strong> Комп’ютерні технології</p>
+        <p><strong>Захоплення:</strong> комп’ютери, технології та музика.</p>
+        <p><strong>Мета:</strong> здобувати нові знання й навчитися створювати сучасні вебсайти.</p>
+      </section>
+    </main>
+    <footer>© 2026 · Особиста вебсторінка</footer>
+  </div>
+</body>
+</html>
